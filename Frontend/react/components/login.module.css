@@ -1,0 +1,89 @@
+.logIn{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "FigTree",sans-serif;
+}
+.form{
+    width:600px;
+    background-color: #dfb6b2;
+    border-radius: 15px;
+    text-align: center;
+}
+.head{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.header_logo{
+    display: flex;
+    gap:10px;
+}
+.header_logo>img{
+    width:40px;
+    aspect-ratio: 1;
+}
+.head>hr{
+    vertical-align: middle;
+    border:none;
+    background-color: #190019;
+    width:2px;
+    margin:0;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    margin-top:50px;
+    width:100%;
+}
+form>div{
+    position:relative;
+    width:100%;
+}
+form>div>img{
+    position:absolute;
+    left:90%;
+    width:30px;
+    aspect-ratio: 1;
+    bottom:5px;
+}
+label{
+    font-size:22px;
+    position:absolute;
+    bottom:10%;
+    opacity:0.8;
+}
+input{
+    background-color: transparent;
+    border:none;
+    border-bottom:2px solid #190019;
+    width:90%;
+    align-self:flex-start;
+    font-size:20px;
+    color: #190019;
+    font-family: "FigTree",sans-serif;
+}
+input:focus{
+    outline:none;
+}
+hr{
+    width:90%;
+    border:none;
+    border-top:2px solid #190019;
+}
+.login_btns>button{
+    margin-bottom:20px;
+    width:200px;
+}
+p{
+    font-size:22px;
+}
+.redirect_signup{
+    margin:20px 0px;
+}
+.redirect_signup_btn{
+    width:200px;
+}

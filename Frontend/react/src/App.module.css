@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  color:#522b5b;
+  font-family: "FigTree",sans-serif;
+  background-color: #fbe4d8;
+}
+header{
+  width:100%;
+  height:30%;
+  background-color: #dfb6b2;
+  display:flex;
+  justify-content: space-between;
+  padding:20px;
+}
+.header_logo{
+  display:flex;
+}
+.header_logo>img{
+  width:40px;
+  aspect-ratio: 1;
+}
+.header_btns{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-right:50px;
+  gap:20px;
+}
+button{
+  width:100px;
+  height:50px;
+  font-size:20px;
+  font-family: "FigTree",sans-serif;
+  background-color: #fbe4d8;
+  border-radius:10px;
+  cursor:pointer;
+}
+.main_app{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:10px;
+}
+.main_app>div>h2{
+  width:100%;
+  text-align: center;
+}
+.main_app>div>img{
+  width:90%;
+  height:80%;
+  border:5px solid #190019;
+  padding:20px;
+  border-radius:10px;
+}
